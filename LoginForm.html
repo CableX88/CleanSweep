@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>CleanSweepLogin</title>
+</head>
+
+<body>
+    <div class = "container">
+        <input id ="TextEmail" type="email" placeholder="Email">
+        <input id ="TextPassword" type="password" placeholder="Password">
+
+        <button id = "LoginButton" class="button button-action" >Log in</button>
+        <button id = "SignUpButton" class="button button-secondary" >Sign up</button>
+        <button id = "LogoutButton" class="button button-action hide" >Log out</button>
+    </div>
+
+</body>
+  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="/__/firebase/7.14.5/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="/__/firebase/7.14.5/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="/__/firebase/7.14.5/firebase-auth.js"></script>
+  <script src="/__/firebase/7.14.5/firebase-firestore.js"></script>
+  <script src="firebaseConfig.js"></script>
+</html>
