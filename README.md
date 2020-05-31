@@ -8,8 +8,8 @@ Find an area that needs cleaning:
 
 1. Click **I Found Litter**
 2. Upload Photo of polluted area
-  If litter in the area has been cleaned
-3. click update marker to notify area has been cleaned
+3. If litter in the area has been cleaned
+4. Click update marker to notify area has been cleaned
 
 
 
